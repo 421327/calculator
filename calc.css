@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: no;
+}
+
+.calculator {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    /*height: 100%;
+    width: 100%;*/
+    background-color: darkBlue;
+}
+input {
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Helvetica;
+    background-color: darkGreen;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black ,
+                -2px 0 0 -2px lightgray;
+}
+#screen input {
+    width: 285px;
+    height: 120px;
+    text-align: right;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    font-size: 50px;
+}
+/*equal sign*/
+#equal {
+    width: 135px;
+}
